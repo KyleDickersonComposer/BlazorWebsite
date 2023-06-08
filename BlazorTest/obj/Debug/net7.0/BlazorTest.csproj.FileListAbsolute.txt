@@ -62,7 +62,6 @@ C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\staticwebassets.pac
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\scopedcss\bundle\BlazorTest.styles.css
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\scopedcss\projectbundle\BlazorTest.bundle.scp.css
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\BlazorTest.csproj.CopyComplete
