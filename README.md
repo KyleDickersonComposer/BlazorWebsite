@@ -1,1 +1,1 @@
-#Blazor WASM Test
+Blazor WASM Test
