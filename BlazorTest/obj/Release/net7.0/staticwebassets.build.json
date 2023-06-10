@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mg3nvnQ3R2vdIiMI4hKxkoPS4/dIRDJp0iqfGumx75k=",
+  "Hash": "3UsS88g/YaixzI2+YoaXj3r2mDz5kwc/9DwMPx2asvc=",
   "Source": "BlazorTest",
   "BasePath": "_content/BlazorTest",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorTest/wwwroot",
+      "Name": "BlazorTest\\wwwroot",
       "Source": "BlazorTest",
-      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
       "BasePath": "_content/BlazorTest",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.css",
+      "Identity": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/",
+      "ContentRoot": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.css"
     },
     {
-      "Identity": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.js",
+      "Identity": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/",
+      "ContentRoot": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/bundle/BlazorTest.styles.css",
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\BlazorTest.styles.css",
       "SourceId": "BlazorTest",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorTest",
       "RelativePath": "BlazorTest.styles.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/bundle/BlazorTest.styles.css"
+      "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\BlazorTest.styles.css"
     },
     {
-      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/projectbundle/BlazorTest.bundle.scp.css",
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\BlazorTest.bundle.scp.css",
       "SourceId": "BlazorTest",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorTest",
       "RelativePath": "BlazorTest.bundle.scp.css",
       "AssetKind": "All",
@@ -82,7 +82,24 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/projectbundle/BlazorTest.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\BlazorTest.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\index.html",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     }
   ]
 }
