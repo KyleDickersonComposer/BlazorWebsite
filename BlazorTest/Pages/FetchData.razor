@@ -3,47 +3,41 @@
 @inject WeatherForecastService ForecastService
 
 
+
 <PageTitle>Weather Forecast</PageTitle>
 
-<div class="class" style="">
+<div>
 
-    <MudPaper MaxWidth="700px">
 
-<MudText Typo="Typo.h1" Align="Align.Left" Color="Color.Primary">WEATHER FORECAST</MudText>
-<MudDivider Class="my-2"></MudDivider>
-<MudText Typo="Typo.h5" Color="Color.Secondary" Align="Align.Left">This component demonstrates fetching data from a service:</MudText>
+    <MudDivider Class="d-inline" Typo="Typo.h1" Align="Align.Left" Color="Color.Primary">WEATHER FORECAST</MudDivider>
+    <MudDivider Class="d-inline" Typo="Typo.h5" Color="Color.Secondary" Align="Align.Left">This component demonstrates fetching data from a service:</MudDivider>
 
-        @if (forecasts == null)
-        {
-            <p><em>Loading...</em></p>
-        }
-        else
-        {
+    @if (forecasts == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
 
-            <MudTable Items="@forecasts" Hover="true" Square="false" Elevation="2" Dense="true">
-                <HeaderContent>
-                    <MudTh Style="color:GrayText">Date</MudTh>
-                    <MudTh Style="color:GrayText">Temperature in Celsius</MudTh>
-                    <MudTh Style="color:GrayText">Temperature in Fahrenheit</MudTh>
-                    <MudTh Style="color:GrayText">Summary</MudTh>
-                </HeaderContent>
-                <RowTemplate>
-                    <MudTd DataLabel="Date">@context.Date</MudTd>
-                    <MudTd DataLabel="Temperature in Celsius">@context.TemperatureC</MudTd>
-                    <MudTd DataLabel="Temperature in Fahrenheit">@context.TemperatureF</MudTd>
-                    <MudTd DataLabel="Summary">@context.Summary</MudTd>
-                </RowTemplate>
-                <PagerContent>
-                    <MudTablePager PageSizeOptions="new int[]{50, 100, 500}" />
-                </PagerContent>
-            </MudTable>
-        }
-
-</MudPaper>
-
+        <MudTable Class="d-inline" Items="@forecasts" Hover="true" Square="false" Elevation="2" Dense="true">
+            <HeaderContent>
+                <MudTh Style="color:GrayText">Date</MudTh>
+                <MudTh Style="color:GrayText">Temperature in Celsius</MudTh>
+                <MudTh Style="color:GrayText">Temperature in Fahrenheit</MudTh>
+                <MudTh Style="color:GrayText">Summary</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Date">@context.Date</MudTd>
+                <MudTd DataLabel="Temperature in Celsius">@context.TemperatureC</MudTd>
+                <MudTd DataLabel="Temperature in Fahrenheit">@context.TemperatureF</MudTd>
+                <MudTd DataLabel="Summary">@context.Summary</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager PageSizeOptions="new int[]{50, 100, 500}" />
+            </PagerContent>
+        </MudTable>
+    }
 </div>
-
-
 
 
 @code {

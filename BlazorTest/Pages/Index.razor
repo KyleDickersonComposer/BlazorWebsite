@@ -2,13 +2,42 @@
 
 <PageTitle>Index</PageTitle>
 
-<div>
     <MudPaper>
-        <MudText Typo="Typo.h1" Color="Color.Primary">HELLO, WORLD!</MudText>
-        <MudDivider Class="my-2"></MudDivider>
-        <MudText Typo="Typo.h5" Color="Color.Secondary">Welcome to your new app.</MudText>
+        <MudText Class="d-inline-block" Typo="Typo.h5" Color="Color.Primary" Align="Align.Left">MUDBLAZOR TEST</MudText>
+
+        <MudNavMenu Color="Color.Info">
+            <MudNavLink style="width: 255px" Href="/counter" Icon="@Icons.Material.Filled.PlusOne">Counter</MudNavLink>
+            <MudNavLink style="width: 255px" Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
+            <MudNavLink style="width: 255px" Icon="@Icons.Material.Filled.Link" OnClick="OnButtonClicked">Blazor Survey</MudNavLink>
+
+            <div>
+                <MudPaper>
+                    <MudText Class="d-inline" Typo="Typo.h1" Color="Color.Primary">HELLO, WORLD!</MudText>
+                    <MudDivider Class="my-2"></MudDivider>
+                    <MudText Class="d-inline" Typo="Typo.h5" Color="Color.Secondary">Welcome to your new app.</MudText>
+                </MudPaper>
+            </div>
+
+        </MudNavMenu>
     </MudPaper>
-</div>
 
 
 
+@code {
+    [Inject] private IDialogService DialogService { get; set; }
+    [Inject] private NavigationManager NavigationManager { get; set; }
+
+
+    private async void OnButtonClicked()
+    {
+        bool? result = await DialogService.ShowMessageBox(
+            "Warning",
+            @"You are leaving this page for a Blazor survey.",
+            yesText: "Leave", cancelText: "Stay");
+
+        if (result != null && result == true)
+        {
+            NavigationManager.NavigateTo("https://go.microsoft.com/fwlink/?linkid=2186158", true);
+        }
+    }
+}
