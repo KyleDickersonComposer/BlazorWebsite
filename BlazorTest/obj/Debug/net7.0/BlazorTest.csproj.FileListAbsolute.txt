@@ -30,6 +30,8 @@
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/BlazorTest.pdb
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/BlazorTest.genruntimeconfig.cache
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/ref/BlazorTest.dll
+<<<<<<< HEAD
+=======
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Debug\net7.0\appsettings.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Debug\net7.0\BlazorTest.staticwebassets.runtime.json
@@ -863,3 +865,4 @@ C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\build-gz\a4kY+tFL.g
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\build-gz\929Suqjp.gz
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\build-gz\L5ZJy0F0.gz
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Debug\net7.0\blazor.boot.json
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470

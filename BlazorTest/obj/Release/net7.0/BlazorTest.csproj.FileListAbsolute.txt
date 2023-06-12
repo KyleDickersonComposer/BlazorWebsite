@@ -39,6 +39,8 @@
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/Microsoft.JSInterop.dll
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/MudBlazor.dll
 /Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/BlazorTest.csproj.CopyComplete
+<<<<<<< HEAD
+=======
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Release\net7.0\appsettings.Development.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Release\net7.0\appsettings.json
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\bin\Release\net7.0\BlazorTest.staticwebassets.runtime.json
@@ -80,3 +82,4 @@ C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Release\net7.0\refint\BlazorTest
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Release\net7.0\BlazorTest.pdb
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Release\net7.0\BlazorTest.genruntimeconfig.cache
 C:\Users\KyleD\Builds\BlazorTest\BlazorTest\obj\Release\net7.0\ref\BlazorTest.dll
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470

@@ -1,22 +1,43 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "j99NmNeGLksBoy1cFApYhw93uVzH5m7fk89pRVLca9M=",
+  "Source": "BlazorTest",
+  "BasePath": "_content/BlazorTest",
+  "Mode": "Default",
+=======
   "Hash": "0iYnCLZjubepwPrjl4jE/12YhmZX1sJaUfjCmSeqKzo=",
   "Source": "BlazorTest",
   "BasePath": "/",
   "Mode": "Root",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
+<<<<<<< HEAD
+      "Name": "BlazorTest/wwwroot",
+      "Source": "BlazorTest",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+=======
       "Name": "BlazorTest\\wwwroot",
       "Source": "BlazorTest",
       "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
       "BasePath": "/",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/bundle/BlazorTest.styles.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/BlazorTest",
+=======
       "Identity": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
@@ -6941,6 +6962,7 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "/",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "RelativePath": "BlazorTest.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
@@ -6950,6 +6972,16 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/bundle/BlazorTest.styles.css"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/projectbundle/BlazorTest.bundle.scp.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/BlazorTest",
+=======
       "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorTest.styles.css"
     },
     {
@@ -6958,6 +6990,7 @@
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "/",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "RelativePath": "BlazorTest.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
@@ -6967,6 +7000,17 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Debug/net7.0/scopedcss/projectbundle/BlazorTest.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/bootstrap/bootstrap.min.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/bootstrap/bootstrap.min.css",
+=======
       "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorTest.bundle.scp.css"
     },
     {
@@ -6976,6 +7020,7 @@
       "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -6984,7 +7029,215 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/FONT-LICENSE",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/ICON-LICENSE",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/ICON-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/open-iconic/README.md",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/open-iconic/README.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/css/site.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/favicon.png",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+=======
       "OriginalItemSpec": "wwwroot\\index.html"
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
     }
   ]
 }

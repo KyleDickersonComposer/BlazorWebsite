@@ -2,6 +2,40 @@
 @using BlazorTest.Data
 @inject WeatherForecastService ForecastService
 
+<<<<<<< HEAD
+<PageTitle>Weather Forecast</PageTitle>
+
+<MudText Typo="Typo.h1" Style="text-decoration:blink" Color="Color.Primary">WEATHER FORECAST</MudText>
+<MudDivider Class="my-2"></MudDivider>
+<MudText Typo="Typo.h5" Color="Color.Secondary">This component demonstrates fetching data from a service:</MudText>
+
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    <MudTable Items="@forecasts" Hover="true" Square="false" Elevation="2" Dense="true">
+        <HeaderContent>
+            <MudTh Style="color:GrayText">Date</MudTh>
+            <MudTh Style="color:GrayText">Temperature in Celsius</MudTh>
+            <MudTh Style="color:GrayText">Temperature in Fahrenheit</MudTh>
+            <MudTh Style="color:GrayText">Summary</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Date">@context.Date</MudTd>
+            <MudTd DataLabel="Temperature in Celsius" >@context.TemperatureC</MudTd>
+            <MudTd DataLabel="Temperature in Fahrenheit">@context.TemperatureF</MudTd>
+            <MudTd DataLabel="Summary">@context.Summary</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{50, 100, 500}" />
+        </PagerContent>
+    </MudTable>
+}
+=======
 
 
 <PageTitle>Weather Forecast</PageTitle>
@@ -39,6 +73,7 @@
     }
 </div>
 
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
 
 @code {
     private WeatherForecast[]? forecasts;

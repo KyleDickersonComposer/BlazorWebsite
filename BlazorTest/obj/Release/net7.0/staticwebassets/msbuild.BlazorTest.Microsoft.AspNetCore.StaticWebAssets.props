@@ -16,6 +16,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\BlazorTest.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
+=======
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))">
       <SourceType>Package</SourceType>
       <SourceId>BlazorTest</SourceId>
@@ -32,5 +34,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))</OriginalItemSpec>
     </StaticWebAsset>
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
   </ItemGroup>
 </Project>

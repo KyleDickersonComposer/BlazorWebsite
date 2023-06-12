@@ -2,6 +2,12 @@
 using Microsoft.AspNetCore.Components.Web;
 using BlazorTest.Data;
 using MudBlazor.Services;
+<<<<<<< HEAD
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+=======
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -23,6 +29,7 @@ await builder.Build().RunAsync();
 
 
 /*// Add services to the container.
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
@@ -44,6 +51,10 @@ app.UseRouting();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
+<<<<<<< HEAD
+app.Run();
+=======
 app.Run(); */
 
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
 
