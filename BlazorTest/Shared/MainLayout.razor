@@ -3,6 +3,7 @@
 @inject IDialogService DialogServ
 @inject NavigationManager NavManager
 
+<<<<<<< HEAD
  
 <PageTitle>BlazorTest</PageTitle>
 <MudThemeProvider IsDarkMode="true"/>
@@ -36,6 +37,39 @@
 </div>
 
 @code{
+=======
+
+<PageTitle>BlazorTest</PageTitle>
+<MudThemeProvider IsDarkMode="true" />
+<MudDialogProvider CloseOnEscapeKey="true" />
+<MudSnackbarProvider />
+
+
+
+
+<MudMainContent>
+    <MudAppBar>
+
+        <MudText Typo="Typo.h5" Color="Color.Primary" Align="Align.Left">MUDBLAZOR TEST</MudText>
+
+        <MudAppBar>
+
+        </MudAppBar>
+
+
+    </MudAppBar>
+
+    <MudContainer MaxWidth="MaxWidth.Large">
+        <MudPaper> @Body</MudPaper>
+
+
+    </MudContainer>
+
+</MudMainContent>
+
+
+@code {
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
     [Inject] private IDialogService DialogService { get; set; }
     [Inject] private NavigationManager NavigationManager { get; set; }
 

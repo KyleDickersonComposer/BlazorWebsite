@@ -1,3 +1,7 @@
 ﻿<Project>
+<<<<<<< HEAD
   <Import Project="../buildMultiTargeting/BlazorTest.props" />
+=======
+  <Import Project="..\buildMultiTargeting\BlazorTest.props" />
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
 </Project>

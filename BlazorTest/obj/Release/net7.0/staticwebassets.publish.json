@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "oW1N82OrV4M6FJNk8W5GRUPVX/P5uJ0buHFYZcfGOYA=",
+=======
+  "Hash": "1FDhj0r+7VU5beweq7VFyv0Ivsj1qmDoCLGYS4WRdXA=",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
   "Source": "BlazorTest",
   "BasePath": "_content/BlazorTest",
   "Mode": "Default",
@@ -8,19 +12,32 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
+<<<<<<< HEAD
       "Name": "BlazorTest/wwwroot",
       "Source": "BlazorTest",
       "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/wwwroot/",
+=======
+      "Name": "BlazorTest\\wwwroot",
+      "Source": "BlazorTest",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "BasePath": "_content/BlazorTest",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
       "ContentRoot": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/",
+=======
+      "Identity": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -31,6 +48,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.css"
     },
     {
@@ -38,6 +56,15 @@
       "SourceId": "MudBlazor",
       "SourceType": "Package",
       "ContentRoot": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/",
+=======
+      "OriginalItemSpec": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -48,6 +75,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/kyledickerson/.nuget/packages/mudblazor/6.3.1/staticwebassets/MudBlazor.min.js"
     },
     {
@@ -55,6 +83,15 @@
       "SourceId": "BlazorTest",
       "SourceType": "Computed",
       "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/bundle/",
+=======
+      "OriginalItemSpec": "C:\\Users\\KyleD\\.nuget\\packages\\mudblazor\\6.4.1\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\BlazorTest.styles.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "BasePath": "_content/BlazorTest",
       "RelativePath": "BlazorTest.styles.css",
       "AssetKind": "All",
@@ -65,6 +102,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/bundle/BlazorTest.styles.css"
     },
     {
@@ -72,6 +110,15 @@
       "SourceId": "BlazorTest",
       "SourceType": "Computed",
       "ContentRoot": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/projectbundle/",
+=======
+      "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\bundle\\BlazorTest.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\BlazorTest.bundle.scp.css",
+      "SourceId": "BlazorTest",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\",
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
       "BasePath": "_content/BlazorTest",
       "RelativePath": "BlazorTest.bundle.scp.css",
       "AssetKind": "All",
@@ -82,7 +129,28 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "/Users/kyledickerson/Projects/BlazorTest/BlazorTest/obj/Release/net7.0/scopedcss/projectbundle/BlazorTest.bundle.scp.css"
+=======
+      "OriginalItemSpec": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\BlazorTest.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\index.html",
+      "SourceId": "BlazorTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KyleD\\Builds\\BlazorTest\\BlazorTest\\wwwroot\\",
+      "BasePath": "_content/BlazorTest",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
     }
   ]
 }

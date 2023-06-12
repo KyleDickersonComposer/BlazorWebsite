@@ -18,6 +18,10 @@ main {
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
+<<<<<<< HEAD
+=======
+    float: right;
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
     align-items: center;
 }
 

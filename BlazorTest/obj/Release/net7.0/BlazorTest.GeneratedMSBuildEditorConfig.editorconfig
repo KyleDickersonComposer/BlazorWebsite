@@ -9,6 +9,7 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorTest
 build_property.RootNamespace = BlazorTest
+<<<<<<< HEAD
 build_property.ProjectDir = /Users/kyledickerson/Projects/BlazorTest/BlazorTest/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
@@ -55,3 +56,39 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/kyledickerson/Projects/BlazorTest/BlazorTest/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+=======
+build_property.ProjectDir = C:\Users\KyleD\Builds\BlazorTest\BlazorTest\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\KyleD\Builds\BlazorTest\BlazorTest
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KyleD/Builds/BlazorTest/BlazorTest/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gfuazdoowf
+>>>>>>> d96c229193e3fd9d969850aafc182d7650d53470
