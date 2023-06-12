@@ -1,10 +1,4 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6A31C356-B574-4F9B-B591-564C7541B262}|http">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.ItemProperties.BlazorTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="BlazorTest/Pages/Index.css">
     <Files>
       <File FileName="BlazorTest/Shared/NavMenu.razor" />
@@ -22,8 +16,13 @@
       <File FileName="BlazorTest/Program.cs" />
       <File FileName="BlazorTest/Properties/launchSettings.json" />
       <File FileName="BlazorTest/Pages/Error.cshtml.cs" />
-      <File FileName="BlazorTest/Pages/Index.css" Line="2" Column="31" />
+      <File FileName="BlazorTest/Pages/Index.css" Line="5" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
