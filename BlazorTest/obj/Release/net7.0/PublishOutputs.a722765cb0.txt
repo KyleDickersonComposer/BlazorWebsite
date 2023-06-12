@@ -1,0 +1,15 @@
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/BlazorTest
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/appsettings.Development.json
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/appsettings.json
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/BlazorTest.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/BlazorTest.deps.json
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/BlazorTest.runtimeconfig.json
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/BlazorTest.pdb
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.Authorization.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.Components.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.Components.Forms.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.Components.Web.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.AspNetCore.Metadata.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.Extensions.Options.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/Microsoft.JSInterop.dll
+/Users/kyledickerson/Projects/BlazorTest/BlazorTest/bin/Release/net7.0/publish/MudBlazor.dll

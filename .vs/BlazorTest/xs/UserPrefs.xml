@@ -1,0 +1,47 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6A31C356-B574-4F9B-B591-564C7541B262}|http">
+  <MonoDevelop.Ide.ItemProperties.BlazorTest PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorTest/Pages/Index.razor">
+    <Files>
+      <File FileName="BlazorTest/Shared/NavMenu.razor" />
+      <File FileName="BlazorTest/Shared/MainLayout.razor" />
+      <File FileName="BlazorTest/Shared/SurveyPrompt.razor" />
+      <File FileName="BlazorTest/Pages/FetchData.razor" Line="14" Column="31" />
+      <File FileName="BlazorTest/Pages/Counter.razor" />
+      <File FileName="BlazorTest/Pages/Index.razor" Line="9" Column="1" />
+      <File FileName="BlazorTest/Pages/_Host.cshtml" />
+      <File FileName="BlazorTest/Data/WeatherForecast.cs" />
+      <File FileName="BlazorTest/Pages/Error.cshtml" />
+      <File FileName="BlazorTest/Data/WeatherForecastService.cs" />
+      <File FileName="BlazorTest/_Imports.razor" />
+      <File FileName="BlazorTest/App.razor" />
+      <File FileName="BlazorTest/appsettings.json" />
+      <File FileName="BlazorTest/Program.cs" />
+      <File FileName="BlazorTest/Properties/launchSettings.json" />
+      <File FileName="BlazorTest/Pages/Error.cshtml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorTest" expanded="True">
+            <Node name="BlazorTest" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.razor" selected="True" />
+              </Node>
+              <Node name="Shared" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
