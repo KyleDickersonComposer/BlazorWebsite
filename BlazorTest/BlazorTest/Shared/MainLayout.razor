@@ -1,0 +1,57 @@
+﻿@inherits LayoutComponentBase
+
+@inject IDialogService DialogServ
+@inject NavigationManager NavManager
+
+ 
+<PageTitle>BlazorTest</PageTitle>
+<MudThemeProvider IsDarkMode="true"/>
+<MudDialogProvider CloseOnEscapeKey="true" />
+<MudSnackbarProvider />
+
+<div class="page">
+
+    <MudPaper Width="250px" Height="100%">
+
+        <MudText Typo="Typo.h5" Color="Color.Primary" Align="Align.Center">MUDBLAZOR TEST</MudText>
+
+        <MudPaper Width="250px" Class="py-3">
+            <MudNavMenu Color="Color.Info">
+                <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.PlusOne">Counter</MudNavLink>
+                <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
+
+                <MudNavLink Icon="@Icons.Material.Filled.Link" OnClick="OnButtonClicked">Blazor Survey</MudNavLink>
+
+            </MudNavMenu>
+        </MudPaper>
+
+    </MudPaper>
+
+
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+
+@code {
+    [Inject] private IDialogService DialogService { get; set; }
+    [Inject] private NavigationManager NavigationManager { get; set; }
+
+
+    private async void OnButtonClicked()
+    {
+        bool? result = await DialogService.ShowMessageBox(
+            "Warning",
+            @"You are leaving this page for a Blazor survey.",
+            yesText: "Leave", cancelText: "Stay");
+
+        if (result != null && result == true)
+        {
+            NavigationManager.NavigateTo("https://go.microsoft.com/fwlink/?linkid=2186158", true);
+        }
+    }
+}
+
