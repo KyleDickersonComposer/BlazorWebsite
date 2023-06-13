@@ -5,36 +5,58 @@
 
  
 <PageTitle>BlazorTest</PageTitle>
-<MudThemeProvider IsDarkMode="true"/>
+<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
 <MudDialogProvider CloseOnEscapeKey="true" />
 <MudSnackbarProvider />
 
-<div class="page">
-
-    <MudPaper Width="250px" Height="100%">
-
-        <MudText Typo="Typo.h5" Color="Color.Primary" Align="Align.Center">MUDBLAZOR TEST</MudText>
-
-        <MudPaper Width="250px" Class="py-3">
-            <MudNavMenu Color="Color.Info">
-                <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.PlusOne">Counter</MudNavLink>
-                <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
-
-                <MudNavLink Icon="@Icons.Material.Filled.Link" OnClick="OnButtonClicked">Blazor Survey</MudNavLink>
-
-            </MudNavMenu>
-        </MudPaper>
-
-    </MudPaper>
 
 
-    <main>
-        <article class="content px-4">
+<MudLayout>
+
+    <MudDrawer @bind-Open="@_drawerOpen">
+        <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Info" Class="pa-3">
+
+            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+            <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.Cake">Counter</MudNavLink>
+            <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
+            <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
+
+        </MudNavMenu>
+    </MudDrawer>
+
+    <MudAppBar>
+
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Info" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+            <MudText Typo="Typo.h5" Color="Color.Surface">MudBlazor Test</MudText>
+
+        <MudSpacer />
+
+        <MudSwitch @bind-Checked="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+        <MudAvatar Color="Color.Info">JD</MudAvatar>
+
+        @code {
+        private MudTheme _theme = new();
+        private bool _isDarkMode;
+        }
+
+    </MudAppBar>
+
+    <MudMainContent>
+        <MudDivider />
+        <MudContainer  MaxWidth="MaxWidth.Medium" >
             @Body
-        </article>
-    </main>
-</div>
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
 
+@code {
+    bool _drawerOpen = true;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}
 
 @code {
     [Inject] private IDialogService DialogService { get; set; }

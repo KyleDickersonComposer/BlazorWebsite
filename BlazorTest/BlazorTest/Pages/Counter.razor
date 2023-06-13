@@ -2,24 +2,17 @@
 
 <PageTitle>Counter</PageTitle>
 
-<MudText Typo="Typo.h1" Style="text-align:justify-all" Color="Color.Primary">COUNTER PAGE</MudText>
-<MudDivider Class="my-2"></MudDivider>
-<MudText Typo="Typo.h5" Color="Color.Secondary">Counter: @currentCount</MudText>
-<MudPaper>
-    <MudText Class="d-inline-block" Typo="Typo.h5" Color="Color.Primary" Align="Align.Left">MUDBLAZOR TEST</MudText>
+<div>
 
-    <MudNavMenu Color="Color.Info">
-        <MudNavLink style="width: 255px" Href="/counter" Icon="@Icons.Material.Filled.PlusOne">Counter</MudNavLink>
-        <MudNavLink style="width: 255px" Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
-        <MudNavLink style="width: 255px" Icon="@Icons.Material.Filled.Link" OnClick="OnButtonClicked">Blazor Survey</MudNavLink>
+    <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Primary">COUNTER PAGE</MudText>
+    <MudText Typo="Typo.subtitle1" Align="Align.Center" Color="Color.Secondary">Counter: @currentCount</MudText>
 
-        <MudPaper>
-            <MudText Typo="Typo.h1" Align="Align.Left" Color="Color.Primary">COUNTER PAGE</MudText>
-            <MudDivider Class="my-2"></MudDivider>
-            <MudText Typo="Typo.h5" Align="Align.Left" Color="Color.Secondary">Counter: @currentCount</MudText>
-        </MudPaper>
-    </MudNavMenu>
-</MudPaper>
+
+    <MudElement Class="d-flex justify-center">
+        <MudButton Variant="Variant.Filled" OnClick="IncrementCount" Color="Color.Primary">Click Me!</MudButton>
+    </MudElement>
+
+</div>
 
 @code {
     [Inject] private IDialogService DialogService  { get; set; }
@@ -40,11 +33,6 @@
     }
 }
 
-
-
-
-
-<MudButton Variant="Variant.Filled" OnClick="IncrementCount" Color="Color.Primary">Click Me!</MudButton>
 
 @code {
     private int currentCount = 0;
