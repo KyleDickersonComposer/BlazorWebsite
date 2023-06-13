@@ -1,6 +1,6 @@
 # BlazorTest
 
-June 13, 2023- updated website template. 
+June 13, 2023- updated website layout for desktop. 
 
 TODO:
 1. Figure out how to layout for both mobile and desktop with a switchcase per platform.
