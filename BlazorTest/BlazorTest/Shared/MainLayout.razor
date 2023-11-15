@@ -20,9 +20,8 @@
             <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
             <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
 
-            <MudSpacer />
-
-            <MudSwitch @bind-Checked="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
+            <MudDivider/>
+            <MudSwitch @bind-Checked="@_isDarkMode"  Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" />
         </MudNavMenu>
     </MudDrawer>
 
@@ -35,7 +34,7 @@
 
         @code {
         private MudTheme _theme = new();
-        private bool _isDarkMode;
+        private bool _isDarkMode = true;
         }
 
     </MudAppBar>
@@ -47,6 +46,7 @@
         </MudContainer>
     </MudMainContent>
 </MudLayout>
+
 
 @code {
     bool _drawerOpen = false;
