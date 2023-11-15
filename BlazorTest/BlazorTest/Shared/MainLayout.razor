@@ -16,23 +16,22 @@
     <MudDrawer @bind-Open="@_drawerOpen">
         <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Info" Class="pa-3">
 
-            <MudNavLink Href="/" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
             <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.Cake">Counter</MudNavLink>
             <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
             <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
 
+            <MudSpacer />
+
+            <MudSwitch @bind-Checked="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
         </MudNavMenu>
     </MudDrawer>
 
     <MudAppBar>
 
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Info" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-            <MudText Typo="Typo.h5" Color="Color.Surface">MudBlazor Test</MudText>
-
+        <MudText Typo="Typo.h5" Color="Color.Surface">MudBlazor Test</MudText>
         <MudSpacer />
-
-        <MudSwitch @bind-Checked="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Toggle Light/Dark Mode" />
-        <MudAvatar Color="Color.Info">JD</MudAvatar>
+        <MudAvatar Color="Color.Info">KD</MudAvatar>
 
         @code {
         private MudTheme _theme = new();
@@ -50,7 +49,7 @@
 </MudLayout>
 
 @code {
-    bool _drawerOpen = true;
+    bool _drawerOpen = false;
 
     void DrawerToggle()
     {
