@@ -1,1 +1,0 @@
-Blazor WASM Test
