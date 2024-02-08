@@ -12,14 +12,14 @@
 <MudLayout>
 
     <MudDrawer @bind-Open="@_drawerOpen">
-        <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Info" Class="pa-3">
+        <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Surface" Class="pa-3">
 
             <MudNavLink Href="/counter" Icon="@Icons.Material.Filled.Cake">Counter</MudNavLink>
             <MudNavLink Href="/weather" Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
             <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
 
             <MudDivider />
-            <MudSwitch @bind-Checked="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" />
+            <MudSwitch Value="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" />
         </MudNavMenu>
     </MudDrawer>
 
@@ -33,7 +33,7 @@
 
         @code {
         private MudTheme _theme = new();
-        private bool _isDarkMode = true;
+        private bool _isDarkMode = false;
         }
 
     </MudAppBar>
@@ -45,7 +45,28 @@
         </MudContainer>
     </MudMainContent>
 </MudLayout>
+@code {
+    MudTheme MyCustomTheme = new MudTheme()
+        {
+            Palette = new PaletteLight()
+            {
+                Primary = Colors.Red.Accent4,
+                Secondary = Colors.Yellow.Accent4,
+                AppbarBackground = Colors.Teal.Default,
+                Info = Colors.Cyan.Accent1
+            },
+            PaletteDark = new PaletteDark()
+            {
+                Primary = Colors.Blue.Lighten1
+            },
 
+            LayoutProperties = new LayoutProperties()
+            {
+                DrawerWidthLeft = "260px",
+                DrawerWidthRight = "300px"
+            }
+        };
+}
 
 @code {
     bool _drawerOpen = false;
