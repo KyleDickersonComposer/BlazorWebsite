@@ -19,7 +19,8 @@
             <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
 
             <MudDivider />
-            <MudSwitch Value="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool" Label="Dark Mode" />
+            <MudSwitch @onclick="@darkToggle" bind-value="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool"
+                Label="Dark Mode" />
         </MudNavMenu>
     </MudDrawer>
 
@@ -33,6 +34,17 @@
 
         @code {
         private MudTheme _theme = new();
+        public void darkToggle()
+        {
+            if (_isDarkMode == false)
+            {
+            _isDarkMode = true;
+            }
+            else if (_isDarkMode == true)
+            {
+            _isDarkMode = false;
+            }
+        }
         private bool _isDarkMode = false;
         }
 
@@ -45,6 +57,7 @@
         </MudContainer>
     </MudMainContent>
 </MudLayout>
+
 @code {
     MudTheme MyCustomTheme = new MudTheme()
         {
