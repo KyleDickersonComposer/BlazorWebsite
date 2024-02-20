@@ -9,7 +9,7 @@ public class WeatherForecastService
 
     public Task<WeatherForecast[]> GetForecastAsync(DateOnly startDate)
     {
-        return Task.FromResult(Enumerable.Range(1, 1000).Select(index => new WeatherForecast
+        return Task.FromResult(Enumerable.Range(1, 10).Select(index => new WeatherForecast
         {
             Date = startDate.AddDays(index),
             TemperatureC = Random.Shared.Next(-20, 55),
