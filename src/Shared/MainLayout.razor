@@ -28,7 +28,6 @@
 
         @* <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Info" Edge="Edge.Start"
         OnClick="@((e) => DrawerToggle())" /> *@
-        <MudText Typo="Typo.h5" Color="Color.Surface">Kyle Dickerson Composer</MudText>
 
         @code {
         private MudTheme _theme = new();
@@ -49,7 +48,7 @@
     </MudAppBar>
 
     <MudMainContent>
-        <MudContainer Class="ma-50px" MaxWidth="MaxWidth.Large">
+        <MudContainer MaxWidth="MaxWidth.Large">
             <MudPaper Elevation="0" Height="100%">
                 @Body
             </MudPaper>
