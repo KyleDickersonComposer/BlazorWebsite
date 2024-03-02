@@ -1,18 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
-@inject IDialogService DialogServ
-
-
 <PageTitle>BlazorTest</PageTitle>
 <MudThemeProvider IsDarkMode="true" Theme="theme" />
 <MudDialogProvider CloseOnEscapeKey="true" />
 <MudSnackbarProvider />
 
 <MudAppBar Elevation="1">
-    <MudText Typo="Typo.h5" Class="ml-3">Kyle Dickerson Composer</MudText>
+    <a href="https://kyledickersoncomposer.com">
+        <MudText Typo="Typo.h5" Class="ml-3">Kyle Dickerson Composer</MudText>
+    </a>
     <MudSpacer />
     <MudIconButton Title="GitHub" href="https://www.github.com/kyledickersoncomposer"
-        Icon="@Icons.Custom.Brands.GitHub"> 
+        Icon="@Icons.Custom.Brands.GitHub">
     </MudIconButton>
 </MudAppBar>
 
@@ -28,9 +27,7 @@
             <MudContainer MaxWidth="MaxWidth.Large">
                 <MudStack Class="pb-16">
                     <MudDivider Class="my-6 mx-0" />
-                    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
-                        <MudIconButton href="https://kyledickersoncomposer.com">Kyle Dickerson Composer</MudIconButton>
-                        <MudIconButton href="https://dickersonaudio.com">Dickerson Audio</MudIconButton>
+                    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center">
                         <MudIconButton href="https://github.com/kyledickersoncomposer">GitHub</MudIconButton>
                         <MudIconButton href="https://www.linkedin.com/in/kyle-dickerson-4b35b02b7/">LinkedIn
                         </MudIconButton>
