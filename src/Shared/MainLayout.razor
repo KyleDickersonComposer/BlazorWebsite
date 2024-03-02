@@ -1,104 +1,45 @@
 ﻿@inherits LayoutComponentBase
 
 @inject IDialogService DialogServ
-@inject NavigationManager NavManager
 
 
 <PageTitle>BlazorTest</PageTitle>
-<MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme" />
+<MudThemeProvider IsDarkMode="true" Theme="theme" />
 <MudDialogProvider CloseOnEscapeKey="true" />
 <MudSnackbarProvider />
 
+<MudAppBar Elevation="1">
+    <MudText Typo="Typo.h5" Class="ml-3">Kyle Dickerson Composer</MudText>
+    <MudSpacer />
+    <MudIconButton Title="GitHub" href="https://www.github.com/kyledickersoncomposer"
+        Icon="@Icons.Custom.Brands.GitHub">
+    </MudIconButton>
+</MudAppBar>
 <MudLayout>
-
-    <MudDrawer @bind-Open="@_drawerOpen">
-        <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Surface" Class="pa-3">
-
-            <MudNavLink Icon="@Icons.Material.Filled.Cake">Counter</MudNavLink>
-            <MudNavLink Icon="@Icons.Material.Filled.Cloud">Weather</MudNavLink>
-            <MudNavLink OnClick="OnButtonClicked" Icon="@Icons.Material.Filled.Link">Blazor Survey</MudNavLink>
-
-            <MudDivider />
-            <MudSwitch @onclick="@darkToggle" bind-value="@_isDarkMode" Color="Color.Primary" Class="ma-4" T="bool"
-                Label="Dark Mode" />
-        </MudNavMenu>
-    </MudDrawer>
-
-    <MudAppBar Color="Color.Dark">
-
-        @* <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Info" Edge="Edge.Start"
-        OnClick="@((e) => DrawerToggle())" /> *@
-
-        @code {
-        private MudTheme _theme = new();
-        public void darkToggle()
-        {
-            if (_isDarkMode == false)
-            {
-            _isDarkMode = true;
-            }
-            else if (_isDarkMode == true)
-            {
-            _isDarkMode = false;
-            }
-        }
-        private bool _isDarkMode = false;
-        }
-
-    </MudAppBar>
-
-    <MudMainContent>
-        <MudContainer MaxWidth="MaxWidth.Large">
-            <MudPaper Elevation="0" Height="100%">
+    <MudPaper Elevation="0">
+        <MudMainContent>
+            <MudContainer Class="pa-6" MaxWidth="MaxWidth.ExtraLarge">
                 @Body
-            </MudPaper>
-        </MudContainer>
-    </MudMainContent>
+            </MudContainer>
+        </MudMainContent>
+
+        <MudMainContent Class="pa-0">
+            <MudContainer MaxWidth="MaxWidth.Large">
+                <MudStack Class="pb-16">
+                    <MudDivider Class="my-6 mx-0" />
+                    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+                        <MudIconButton href="https://kyledickersoncomposer.com">Kyle Dickerson Composer</MudIconButton>
+                        <MudIconButton href="https://dickersonaudio.com">Dickerson Audio</MudIconButton>
+                        <MudIconButton href="https://github.com/kyledickersoncomposer">GitHub</MudIconButton>
+                        <MudIconButton href="https://www.linkedin.com/in/kyle-dickerson-4b35b02b7/">LinkedIn
+                        </MudIconButton>
+                    </MudStack>
+                </MudStack>
+            </MudContainer>
+        </MudMainContent>
+    </MudPaper>
 </MudLayout>
 
 @code {
-    MudTheme MyCustomTheme = new MudTheme()
-        {
-            Palette = new PaletteLight()
-            {
-                Primary = Colors.Red.Accent4,
-                Secondary = Colors.Yellow.Accent4,
-                AppbarBackground = Colors.Teal.Default,
-                Info = Colors.Cyan.Accent1
-            },
-            PaletteDark = new PaletteDark()
-            {
-                Primary = Colors.Blue.Lighten1
-            },
-
-            LayoutProperties = new LayoutProperties()
-            {
-                DrawerWidthLeft = "260px",
-                DrawerWidthRight = "300px"
-            }
-        };
-}
-
-@code {
-    bool _drawerOpen = false;
-
-    void DrawerToggle()
-    {
-        _drawerOpen = !_drawerOpen;
-    }
-}
-
-@code {
-    private async void OnButtonClicked()
-    {
-        bool? result = await DialogServ.ShowMessageBox(
-        "Warning",
-        @"You are leaving this page for a Blazor survey.",
-        yesText: "Leave", cancelText: "Stay");
-
-        if (result != null && result == true)
-        {
-            NavManager.NavigateTo("https://go.microsoft.com/fwlink/?linkid=2186158", true);
-        }
-    }
+    private MudTheme theme = new();
 }

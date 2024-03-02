@@ -1,125 +1,29 @@
 ﻿@page "/"
-@inject NavigationManager nav
 
 <PageTitle>Kyle Dickerson Composer</PageTitle>
 <HeadContent>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Kyle Dickerson Composer</title>
 </HeadContent>
-<MudPaper>
-    <MudAlert style="margin-top: 1rem;" NoIcon="true" ContentAlignment="HorizontalAlignment.Center"
-        Severity="Severity.Warning" Variant="Variant.Outlined">
-        <MudText Color="Color.Error" Align="Align.Center" Typo="Typo.h5"><strong>DEMO IS WORK IN PROGRESS</strong>
-        </MudText>
-        <MudText Style="pa-10px" Align="Align.Center"><strong>Here is a <MudLink href="https://www.dickersonaudio.com">
-                    link to the demo</MudLink>!</strong>
-        </MudText>
-    </MudAlert>
-</MudPaper>
-<MudPaper style="padding: 1rem;padding-bottomw: 1rem" Elevation="1">
-    <MudContainer>
-        <MudText Align="Align.Center" Typo=" Typo.h5"><strong>Composer/Programmer</strong></MudText>
-    </MudContainer>
-    <MudDivider></MudDivider>
-    <MudPaper style="margin-top: 10px;" Elevation="0">
-        <MudText Typo="Typo.h6">Skills</MudText>
-    </MudPaper>
-    <MudPaper Elevation="0" style="margin-top: 10px;">
-        <MudText Typo="Typo.h6">
-            <strong>Excellent Musician</strong>
-        </MudText>
-    </MudPaper>
-    <MudList>
-        <li>
-            <MudText>- Outstanding ability with classical and jazz music theory. Excellent aural skills.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- First composer to skip a year and start as a sophomore in the USF Music Composition Program.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- Applied and was accepted into the Classical Piano, Jazz Piano and Music Composition
-                Programs
-                at USF.
-            </MudText>
-        </li>
-    </MudList>
-    <MudDivider></MudDivider>
-    <MudPaper style="margin-top: 10px;" Elevation="0">
-        <MudText Typo="Typo.h6">
-            <strong>DAW Expert</strong>
-        </MudText>
-    </MudPaper>
-    <MudList>
-        <li>
-            <MudText>- Crafted an outstanding pre-stemmed and pre-mixed orchestral template in Cubase using the best
-                instruments.</MudText>
-        </li>
-        <li>
-            <MudText>- Builds custom macros using the Cubase logical editor and key switches with Cubase Expression
-                maps.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- Outstanding knowledge of mixing and production tools and procedures.
-            </MudText>
-        </li>
-    </MudList>
-    <MudDivider></MudDivider>
-    <MudPaper style="margin-top: 10px;" Elevation="0">
-        <MudText Typo="Typo.h6">
-            <strong>Sound and Adaptive Music</strong>
-        </MudText>
-    </MudPaper>
-    <MudList>
-        <li>
-            <MudText>- Interested in studying advanced audio programming concepts like DSP design and Runtime Sound
-                Systems.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- Music Composition coursework at USF included the study of electronic music (viz. Music
-                Concrete), and real-time electronic music composition and performance with PureData.
-            </MudText>
-        </li>
-        <li>
-            <MudText>-Strong understanding of audio middleware tools like FMOD, WWise and their implementation in
-                Unity.
-            </MudText>
-        </li>
-    </MudList>
-    <MudDivider></MudDivider>
-    <MudPaper style="margin-top: 10px;" Elevation="0">
-        <MudText Typo="Typo.h6">
-            <strong>- .NET Full Stack Developer</strong>
-        </MudText>
-    </MudPaper>
-    <MudList>
-        <li>
-            <MudText>- Strong ability with C# and the Object-Oriented Paradigm.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- Builds Full Stack applications using Blazor, ASP.NET Core, and EF Core.
-            </MudText>
-        </li>
-        <li>
-            <MudText>- Proficient with the Unix command-line environment and version control using git and
-                github.
-            </MudText>
-        </li>
-    </MudList>
-    <MudDivider></MudDivider>
-    <MudPaper style="margin-top: 10px;" Elevation="0">
-        <MudText Typo="Typo.h6">
-            <strong>Hardcore Game</strong>
-        </MudText>
-    </MudPaper>
-    <MudList>
-        <li>
-            <MudText>- Achieved Master League in Starcraft 2: Wings of Liberty.
-            </MudText>
-        </li>
-    </MudList>
-</MudPaper>
+
+<MudTabs Centered="true" Color="Color.Dark" Elevation="1" Rounded="true" PanelClass="mb-6">
+    <MudTabPanel Text="Audio Demo">
+        <MudPaper Elevation="0">
+            <AudioDemo />
+        </MudPaper>
+    </MudTabPanel>
+
+    <MudTabPanel Text="Techincal Information">
+        <MudPaper Elevation="0">
+            <MudText>Technical Information</MudText>
+            <MudText>I will put a blog here about the tech involved in making the demo</MudText>
+        </MudPaper>
+    </MudTabPanel>
+
+    <MudTabPanel Text="About me">
+        <MudPaper Elevation="0">
+            <AboutMe />
+        </MudPaper>
+
+    </MudTabPanel>
+</MudTabs>
